@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@700&display=swap');
+
+body {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    font-size: 24px;
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+
+.bg{
+    text-align: center;
+    align-items: center;
+}
+
+.logo_one{
+    margin: 17px 50px;
+}
+
+.main {
+    display: flex;
+    font-size: 64px;
+    justify-content: center;
+}
+
+.planet {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 490px;
+    background-image: url(./img/kandinsky-download-1715328686066\ 1.png)
+}
+
+.container{
+    justify-content: space-between;
+    gap: 199px;
+    display: flex;
+}
+
+.exp{
+    margin-left: 44px;
+}
+
+.mars{
+    margin-right: 29px;
+}
+
+.moon{
+    margin-right: 44px;
+}
+
+.nasa{
+    background-size: cover;
+    width: 376px;
+    height: 199px;
+}
+
+
+.explorer{ 
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    margin: 27px 0px 0px 89px;
+}
+
+
+.icons{
+    display: block;
+    margin: 0px 0px 40px 89px;
+}
+
+.mail{
+    display: block;
+    margin-top: 10px;
+}
+
+.phone{
+    display: block;
+    margin-top: 10px;
+}
+
+.web{
+    display: flex;
+    margin: 10px 0px 27px 0px;
+}
+

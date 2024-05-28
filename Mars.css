@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@700&display=swap');
+
+body {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.logo_one{
+    margin: 17px 0px;
+}
+
+.bg{
+    text-align: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    font-size: 64px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+
+.Mars_foto {
+    width: 822px;
+    height: 383px;
+    margin-top: 55px;
+    margin-left: 36px;
+    margin-right: 29px;
+}
+
+.Mars_info_1 {
+    margin-top: 55px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.Mars_info_2 {
+    font-size: 20px;
+    margin-top: 48px;
+    margin-bottom: 77px;
+    margin-left: 36px;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+
+}
+
+.logo{
+    margin: 27px 0px 0px 89px;
+}
+
+
+.icons{
+    display: block;
+    margin: 0px 0px 40px 89px;
+}
+
+.mail{
+    display: block;
+    margin-top: 10px;
+}
+
+.phone{
+    display: block;
+    margin-top: 10px;
+}
+
+.web{
+    display: flex;
+    margin: 10px 0px 27px 0px;
+}
